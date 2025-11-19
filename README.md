@@ -1,1 +1,8 @@
 # curso_php
+#DIA 1
+IF
+POST Y GET
+
+#DIA 2
+FOR, WHILE, FOREACH , ETC
+

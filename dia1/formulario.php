@@ -21,7 +21,10 @@
     <h2>Formulario Post  sin  enviar a otro archivo</h2>
 
      <?php
-    if($_POST){
+     //CRUD - Create, Read, Update, Delete
+     //Operaciones basicas de una base de datos
+    if($_POST){ //métodos http son get(mostrar), post(insertar), put(actualizar), delete(eliminar), etc.
+  
         $n1=$_POST['n1'];
         $n2=$_POST['n2'];
         $r=$n1+$n2;
@@ -35,7 +38,9 @@
     <input type="text" id="n1" name="n1"/><br/>
     <label for="n2">Numero 2</label>
     <input type="text" id="n2" name="n2"/><br/>
-    <button type="submit">Enviar</button>
+    <button type="submit">+</button>
+    
+    
     <br>
     <br>
     <label for="r">Resultado <?php echo $r ; ?></label>
